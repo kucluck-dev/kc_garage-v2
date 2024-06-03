@@ -1,3 +1,4 @@
 ## Installation Kucluck Garage
 
-Please follow the steps in the link for installation [kc_garage-v2 Documentation](https://kucluck.gitbook.io/introduction/kc-garage)
+Please follow the steps in the link for installation [kc_garagev2 Documentation](https://kucluck.gitbook.io/docs/kc-garage-v2)
+

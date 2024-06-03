@@ -6,7 +6,6 @@ name 					'Kucluck Garage V2'
 description 	'Advanced Garages for ESX & QB V2'
 author 				'Lukman_Nov#5797'
 version 			'1.0.0'
-license    		'GNU General Public License v3.0'
 
 shared_scripts {
 	'@ox_lib/init.lua',
@@ -45,12 +44,8 @@ files {
 
 escrow_ignore {
 	'bridge/**/*.lua',
-	'client/main.lua',
-	'client/function.lua',
-	'client/mainAPI.lua',
-	'client/vehicle_names.lua',
+	'client/*.lua',
 	'locales/*.lua',
 	'server/main.lua',
 	'shared/*.lua',
-	'function.lua',
 }
