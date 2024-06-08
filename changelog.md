@@ -62,3 +62,20 @@
 
 ### Fix:
 - fix:(web/script.js) ui button stacked
+
+# v1.0.3 (08-06-2024)
+- Fixed Target qb-core
+- Fixed Toggle qb-core
+- Fixed qb-core GetIcName
+
+## Changed files
+### Refactor:
+- refactor:(client/main.lua) SetupTarget
+
+### Feat:
+- feat:(client/mainAPI.lua) target options
+
+### Fix:
+- fix:(bridge/qb/server.lua) function GetIcName
+- fix:(server/main.lua) Get vehicles in jobs impound
+- fix:(client/function.lua) function Parking & JobsImpound
