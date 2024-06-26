@@ -1,19 +1,21 @@
-fx_version 		'adamant'
-game 					'gta5'
-lua54 				'yes'
+fx_version 'adamant'
+game 'gta5'
+lua54 'yes'
 
-name 					'Kucluck Garage V2'
-description 	'Advanced Garages for ESX & QB V2'
-author 				'Lukman_Nov#5797'
-version 			'1.0.3'
+name 'Kucluck Garage V2'
+description 'Advanced Garages for ESX & QB V2'
+author 'Lukman_Nov#5797'
+version '1.0.4'
 
 shared_scripts {
 	'@ox_lib/init.lua',
-  'locales.lua',
-  'shared/config.lua',
-  'shared/garages.lua',
-  'shared/impounds.lua',
-  'locales/*.lua'
+	'locales.lua',
+	'shared/config.lua',
+	'shared/framework.lua',
+	'shared/garages.lua',
+	'shared/impounds.lua',
+	'shared/functions.lua',
+	'locales/*.lua'
 }
 
 client_scripts {
@@ -28,6 +30,7 @@ client_scripts {
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
 	'bridge/**/server.lua',
+	'server/mainAPI.lua',
 	'server/main.lua',
 	'server/update.lua',
 }
@@ -47,5 +50,6 @@ escrow_ignore {
 	'client/*.lua',
 	'locales/*.lua',
 	'server/main.lua',
+	'server/mainAPI.lua',
 	'shared/*.lua',
 }
