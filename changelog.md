@@ -118,3 +118,22 @@
 - feat:(shared/framework.lua) framework loaded
 - feat:(shared/functions.lua) shared functions
 - feat:(server/mainAPI.lua) customs server API
+
+# v1.0.5 (30-07-2024)
+
+- Fix Framework not loaded
+- Fix Player IC Name
+- Fix qb-target job
+- Fix Premium Garage always on target
+- Add Missing locale
+
+File Change :
+
+- `bridge/esx/client.lua`
+- `bridge/qb/client.lua`
+- `server/main.lua`
+- `client/main.lua`
+- `client/function.lua`
+- `client/mainAPI.lua`
+- `locales/id.lua`
+- `locales/en.lua`
