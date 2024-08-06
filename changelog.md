@@ -137,3 +137,26 @@ File Change :
 - `client/mainAPI.lua`
 - `locales/id.lua`
 - `locales/en.lua`
+
+# v1.0.6 (07-08-2024)
+
+- Fix issue Delay after spawn vehicles
+- Fix nil value vehiclesCache
+- Feat Auto close UI when not vehicles data
+- Add formatting code
+- open escrow `/bridge/**/*.lua`
+
+File Change :
+
+- `bridge/esx/client.lua`
+- `bridge/qb/client.lua`
+- `bridge/esx/server.lua`
+- `bridge/qb/server.lua`
+- `client/main.lua`
+- `client/deformation.lua`
+- `client/function.lua`
+- `client/mainAPI.lua`
+- `server/main.lua`
+- `server/mainAPI.lua`
+- `server/update.lua`
+- `shared/functions.lua`

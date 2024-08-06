@@ -5,7 +5,7 @@ lua54 'yes'
 name 'Kucluck Garage V2'
 description 'Advanced Garages for ESX & QB V2'
 author 'Lukman_Nov#5797'
-version '1.0.5'
+version '1.0.6'
 
 shared_scripts {
 	'@ox_lib/init.lua',
@@ -46,9 +46,10 @@ files {
 }
 
 escrow_ignore {
-	'client/mainAPI.lua',
-	'client/vehicle_names.lua',
-	'server/mainAPI.lua',
+	'bridge/**/*.lua',
+	'client/*.lua',
 	'locales/*.lua',
+	'server/main.lua',
+	'server/mainAPI.lua',
 	'shared/*.lua',
 }
